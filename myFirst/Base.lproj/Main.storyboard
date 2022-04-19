@@ -17,11 +17,11 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPG-im-W6H">
-                                <rect key="frame" x="220" y="44" width="150" height="90"/>
+                                <rect key="frame" x="209" y="720" width="150" height="90"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="90" id="XPH-dX-MmF"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="r2B-lr-jLP"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="jg2-el-soh"/>
+                                    <constraint firstAttribute="height" constant="90" id="s9V-AS-Wv7"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button">
@@ -29,11 +29,11 @@
                                 </buttonConfiguration>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nob-UY-TWQ">
-                                <rect key="frame" x="20" y="720" width="150" height="90"/>
+                                <rect key="frame" x="31" y="720" width="150" height="90"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="KHK-Rg-Qtp"/>
-                                    <constraint firstAttribute="height" constant="90" id="MWH-du-tvQ"/>
+                                    <constraint firstAttribute="height" constant="90" id="BDY-aM-S1t"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="pYr-6c-Hbz"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button">
@@ -44,18 +44,21 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <constraints>
-                            <constraint firstItem="Nob-UY-TWQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="0y4-U4-P6X"/>
-                            <constraint firstItem="Nob-UY-TWQ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="AZe-Ya-dF8"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UPG-im-W6H" secondAttribute="trailing" constant="20" id="EZW-ob-aZU"/>
-                            <constraint firstItem="UPG-im-W6H" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="RcN-xs-Gpa"/>
-                            <constraint firstItem="UPG-im-W6H" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="WmP-zu-CnX"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Nob-UY-TWQ" secondAttribute="trailing" symbolic="YES" id="ppA-81-hmr"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="lessThanOrEqual" secondItem="UPG-im-W6H" secondAttribute="trailing" constant="31" id="0oL-69-QoF"/>
+                            <constraint firstItem="Nob-UY-TWQ" firstAttribute="width" secondItem="UPG-im-W6H" secondAttribute="width" id="4AH-dy-mG7"/>
+                            <constraint firstItem="UPG-im-W6H" firstAttribute="leading" secondItem="Nob-UY-TWQ" secondAttribute="trailing" constant="28" id="Jq2-9u-jdf"/>
+                            <constraint firstItem="UPG-im-W6H" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="100" id="Rro-r6-zHb"/>
+                            <constraint firstItem="UPG-im-W6H" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="bb5-f7-RwR"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Nob-UY-TWQ" secondAttribute="trailing" constant="100" id="c1U-ff-XbH"/>
+                            <constraint firstItem="Nob-UY-TWQ" firstAttribute="height" secondItem="UPG-im-W6H" secondAttribute="height" id="ei5-CH-Ir5"/>
+                            <constraint firstItem="Nob-UY-TWQ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="oL9-BB-hc6"/>
+                            <constraint firstItem="Nob-UY-TWQ" firstAttribute="leading" relation="lessThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="31" id="xY9-0Z-AAX"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="162.61682242990653" y="41.46868250539957"/>
+            <point key="canvasLocation" x="184" y="159"/>
         </scene>
     </scenes>
     <resources>
