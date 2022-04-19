@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="19529" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina6_7" orientation="portrait" appearance="light"/>
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="19519"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -13,15 +13,27 @@
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="myFirst" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="428" height="926"/>
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UPG-im-W6H">
-                                <rect key="frame" x="139.66666666666666" y="703" width="148.99999999999997" height="96"/>
+                                <rect key="frame" x="220" y="44" width="150" height="90"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="149" id="CGy-r8-bLr"/>
-                                    <constraint firstAttribute="height" constant="96" id="LM5-hu-S4v"/>
+                                    <constraint firstAttribute="height" constant="90" id="XPH-dX-MmF"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="r2B-lr-jLP"/>
+                                </constraints>
+                                <state key="normal" title="Button"/>
+                                <buttonConfiguration key="configuration" style="plain" title="Button">
+                                    <backgroundConfiguration key="background"/>
+                                </buttonConfiguration>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Nob-UY-TWQ">
+                                <rect key="frame" x="20" y="720" width="150" height="90"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="150" id="KHK-Rg-Qtp"/>
+                                    <constraint firstAttribute="height" constant="90" id="MWH-du-tvQ"/>
                                 </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" title="Button">
@@ -32,8 +44,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemOrangeColor"/>
                         <constraints>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="UPG-im-W6H" secondAttribute="bottom" constant="93" id="RJ7-if-QVd"/>
-                            <constraint firstItem="UPG-im-W6H" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="oZd-W2-KOa"/>
+                            <constraint firstItem="Nob-UY-TWQ" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="0y4-U4-P6X"/>
+                            <constraint firstItem="Nob-UY-TWQ" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="AZe-Ya-dF8"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UPG-im-W6H" secondAttribute="trailing" constant="20" id="EZW-ob-aZU"/>
+                            <constraint firstItem="UPG-im-W6H" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="150" id="RcN-xs-Gpa"/>
+                            <constraint firstItem="UPG-im-W6H" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="WmP-zu-CnX"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Nob-UY-TWQ" secondAttribute="trailing" symbolic="YES" id="ppA-81-hmr"/>
                         </constraints>
                     </view>
                 </viewController>
