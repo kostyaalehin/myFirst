@@ -27,6 +27,7 @@
                         <constraints>
                             <constraint firstItem="UPG-im-W6H" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="4sp-AE-uhz"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="UPG-im-W6H" secondAttribute="trailing" constant="20" id="9Kd-92-PSa"/>
+                            <constraint firstItem="UPG-im-W6H" firstAttribute="leading" relation="greaterThanOrEqual" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="341" id="t30-hd-gD7"/>
                         </constraints>
                     </view>
                 </viewController>
